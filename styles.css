@@ -138,6 +138,10 @@ section {
     box-shadow: 2px 2px 6px rgba(0,0,0,0.75);
 }
 
+.bottom-button:active {
+    transform: scale(1);
+}
+
 
 /* Aside Section*/
 
@@ -174,6 +178,8 @@ section {
 
 .upper-aside-button:active {
     color: black;
+     transform: scale(1);
+     background-color: #971519;
 }
 
 
@@ -260,6 +266,11 @@ section {
     color: white;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.75);
     transform: scale(1.1);
+}
+
+#airplane:active {
+    transform: scale(1);
+    background-color: #971519;
 }
 
 .send-box {
