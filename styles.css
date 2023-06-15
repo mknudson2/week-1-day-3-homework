@@ -68,6 +68,33 @@ section {
    
 }
 
+.bottom-option-bar-position {
+    position: absolute;
+    bottom: 45px;
+    left: 35%;
+}
+
+.bottom-option-box {
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    padding: 8px;
+}
+
+.bottom-option-box img {
+    /* width: px; */
+    aspect-ratio: 1 / 1;
+    object-fit: scale-down;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
   aside {
     grid-column: 3;
     grid-row-start: 1;
